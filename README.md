@@ -27,6 +27,8 @@ Step 2. Add the dependency
 
 ## How to use
 Use the `onCreate` Just like <a href="https://github.com/00sanoj00/NiceCrashReport/blob/master/app/src/main/java/com/sanoj/devil/crash/MainActivity.java">MainActivity.java</a>
+
+`NiceCrash.Builder.create().apply();`
 ```java
 import com.sanoj.devil.nicecrashreport.config.NiceCrash;
 
