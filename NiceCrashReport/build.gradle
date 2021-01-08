@@ -5,17 +5,14 @@ plugins {
 group='com.github.00sanoj00'
 
 android {
-    compileSdkVersion 30
-    buildToolsVersion '30.0.2'
+    compileSdkVersion 29
+    resourcePrefix 'crash_'
 
     defaultConfig {
-        minSdkVersion 16
-        targetSdkVersion 30
-        versionCode 4
-        versionName "1.4"
-
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        consumerProguardFiles "consumer-rules.pro"
+        minSdkVersion 15
+        targetSdkVersion 29
+        versionCode 5
+        versionName "1.5"
     }
 
     buildTypes {
@@ -36,4 +33,9 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.preference:preference:1.1.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
 }
