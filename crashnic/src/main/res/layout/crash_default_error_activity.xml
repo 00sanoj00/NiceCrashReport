@@ -5,14 +5,16 @@
     android:layout_height="match_parent"
     android:background="#2C123C">
 
-    <com.sanoj.devil.nicecrashreport.gif.GifImageView
+    <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/animationView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:src="@drawable/image"
-        />
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/_35sdp"
+        android:layout_width="@dimen/_260sdp"
+        android:layout_height="@dimen/_260sdp"
+        app:lottie_rawRes="@raw/image"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
 
     <TextView
         android:layout_below="@+id/animationView"
@@ -33,7 +35,7 @@
         android:layout_below="@+id/txt"
         android:layout_centerHorizontal="true"
         android:layout_height="wrap_content"
-        android:layout_marginTop="39dp"
+        android:layout_marginTop="@dimen/_29sdp"
         android:textColor="#2B0E3E"
         android:textStyle="bold"
         android:background="@drawable/btn"
