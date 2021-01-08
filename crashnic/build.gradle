@@ -1,7 +1,5 @@
-plugins {
-    id 'com.android.library'
-    id 'com.github.dcendents.android-maven'
-}
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.00sanoj00'
 
 android {
@@ -11,8 +9,8 @@ android {
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 29
-        versionCode 5
-        versionName "1.5"
+        versionCode 6
+        versionName "1.6"
     }
 
     buildTypes {
