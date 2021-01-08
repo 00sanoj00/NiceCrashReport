@@ -3,12 +3,12 @@ apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.00sanoj00'
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 30
     resourcePrefix 'crash_'
 
     defaultConfig {
         minSdkVersion 15
-        targetSdkVersion 29
+        targetSdkVersion 30
         versionCode 7
         versionName "1.7"
     }
