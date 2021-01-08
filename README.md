@@ -1,4 +1,6 @@
 # NiceCrashReport
+Library Availbale at JitPack.io
+
 [![](https://jitpack.io/v/00sanoj00/NiceCrashReport.svg)](https://jitpack.io/#00sanoj00/NiceCrashReport)
 
 NiceCrashReport is designed to make it easier for you to find out what happened through the download log through the downloader if the app crashes due to an error or some other reason.
@@ -45,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
-## Test
+## Try it
 Use `throw new RuntimeException("Boooooom");`
 
 ```java
@@ -57,3 +59,13 @@ Button crash = findViewById(R.id.crashmemamam);
             }
         });
 ```
+![](https://github.com/00sanoj00/NiceCrashReport/blob/master/Screen/sample.gif?raw=true)
+
+
+![](https://github.com/00sanoj00/NiceCrashReport/blob/master/Screen/thank-you%20(1).png)
+
+![](https://github.com/00sanoj00/NiceCrashReport/blob/master/Screen/thank-you%20(2).png)<a href="https://github.com/airbnb/lottie-android">Lottie for Android </a>
+
+![](https://github.com/00sanoj00/NiceCrashReport/blob/master/Screen/thank-you%20(2).png)<a href="https://github.com/intuit/sdp">SDP Android </a>
+
+![](https://github.com/00sanoj00/NiceCrashReport/blob/master/Screen/thank-you%20(2).png)<a href="https://github.com/TutorialsAndroid/crashx">CrashX</a>
