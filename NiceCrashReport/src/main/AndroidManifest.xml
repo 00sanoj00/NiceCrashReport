@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sanoj.nice.nicecrashreport">
+    package="com.sanoj.devil.nicecrashreport">
 
     <application>
         <activity
-            android:name="com.sanoj.nice.nicecrashreport.activity.DefaultErrorActivity"
+            android:name="com.sanoj.devil.nicecrashreport.activity.DefaultErrorActivity"
             android:process=":error_activity" />
         <provider
-            android:name="com.sanoj.nice.nicecrashreport.provider.CrashInitProvider"
+            android:name="com.sanoj.devil.nicecrashreport.provider.CrashInitProvider"
             android:authorities="${applicationId}.crashinitprovider"
             android:exported="false"
             android:initOrder="101" />

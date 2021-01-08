@@ -1,4 +1,4 @@
-package com.sanoj.nice.nicecrashreport.config;
+package com.sanoj.devil.nicecrashreport.config;
 
 import android.app.Activity;
 import androidx.annotation.DrawableRes;
@@ -11,7 +11,7 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.reflect.Modifier;
 
-import com.sanoj.nice.nicecrashreport.CrashActivity;
+import com.sanoj.devil.nicecrashreport.CrashActivity;
 
 /**
  * @author tkdco , TutorialsAndroid

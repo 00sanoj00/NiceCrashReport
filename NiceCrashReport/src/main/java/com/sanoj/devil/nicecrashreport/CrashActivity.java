@@ -1,4 +1,4 @@
-package com.sanoj.nice.nicecrashreport;
+package com.sanoj.devil.nicecrashreport;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -29,8 +29,8 @@ import java.util.Locale;
 import java.util.Objects;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
-import com.sanoj.nice.nicecrashreport.activity.DefaultErrorActivity;
-import com.sanoj.nice.nicecrashreport.config.NiceCrash;
+import com.sanoj.devil.nicecrashreport.activity.DefaultErrorActivity;
+import com.sanoj.devil.nicecrashreport.config.NiceCrash;
 
 public final class CrashActivity {
 

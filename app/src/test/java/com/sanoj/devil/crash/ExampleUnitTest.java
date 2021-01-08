@@ -1,4 +1,4 @@
-package com.sanoj.nice.nicecrashreport;
+package com.sanoj.devil.crash;
 
 import org.junit.Test;
 

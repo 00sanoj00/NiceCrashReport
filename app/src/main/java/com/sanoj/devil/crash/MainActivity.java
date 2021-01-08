@@ -1,4 +1,4 @@
-package com.sanoj.nice.crash;
+package com.sanoj.devil.crash;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.sanoj.nice.nicecrashreport.config.NiceCrash;
+import com.sanoj.devil.nicecrashreport.config.NiceCrash;
 
 public class MainActivity extends AppCompatActivity {
 

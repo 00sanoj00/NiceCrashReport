@@ -1,4 +1,4 @@
-package com.sanoj.nice.nicecrashreport.provider;
+package com.sanoj.devil.nicecrashreport.provider;
 
 import android.content.ContentProvider;
 import android.content.ContentValues;
@@ -7,7 +7,7 @@ import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.sanoj.nice.nicecrashreport.CrashActivity;
+import com.sanoj.devil.nicecrashreport.CrashActivity;
 
 public class CrashInitProvider extends ContentProvider {
 

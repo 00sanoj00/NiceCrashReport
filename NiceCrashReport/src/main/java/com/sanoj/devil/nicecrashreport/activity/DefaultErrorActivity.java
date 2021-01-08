@@ -1,4 +1,4 @@
-package com.sanoj.nice.nicecrashreport.activity;
+package com.sanoj.devil.nicecrashreport.activity;
 
 import android.annotation.SuppressLint;
 import android.content.ClipData;
@@ -7,7 +7,6 @@ import android.content.res.TypedArray;
 import android.os.Build;
 import android.os.Bundle;
 import androidx.annotation.Nullable;
-import androidx.core.content.res.ResourcesCompat;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import android.util.TypedValue;
@@ -15,13 +14,12 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.sanoj.nice.nicecrashreport.CrashActivity;
-import com.sanoj.nice.nicecrashreport.R;
-import com.sanoj.nice.nicecrashreport.config.NiceCrash;
+import com.sanoj.devil.nicecrashreport.CrashActivity;
+import com.sanoj.devil.nicecrashreport.R;
+import com.sanoj.devil.nicecrashreport.config.NiceCrash;
 
 public final class DefaultErrorActivity extends AppCompatActivity {
 

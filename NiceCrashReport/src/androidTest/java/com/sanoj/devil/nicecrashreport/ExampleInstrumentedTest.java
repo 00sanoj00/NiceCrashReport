@@ -1,4 +1,4 @@
-package com.sanoj.nice.crash;
+package com.sanoj.devil.nicecrashreport;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.sanoj.nice.crash", appContext.getPackageName());
+        assertEquals("com.sanoj.nice.nicecrashreport.test", appContext.getPackageName());
     }
 }
