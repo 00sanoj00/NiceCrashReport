@@ -45,3 +45,15 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
+## Test
+Use `throw new RuntimeException("Boooooom");`
+
+```java
+Button crash = findViewById(R.id.crashmemamam);
+        crash.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                throw new RuntimeException("Badumathama!");
+            }
+        });
+```
