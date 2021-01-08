@@ -1,6 +1,7 @@
 # NiceCrashReport
 
 ## Installation
+[![](https://jitpack.io/v/00sanoj00/NiceCrashReport.svg)](https://jitpack.io/#00sanoj00/NiceCrashReport)
 
 Add jitpack in your root build.gradle at the end of repositories:
 ```
