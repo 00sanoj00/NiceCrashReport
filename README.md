@@ -21,7 +21,7 @@ Step 2. Add the dependency
 ```
 	dependencies {
 	
-	         implementation 'com.github.00sanoj00:NiceCrashReport:1.6'
+	         implementation 'com.github.00sanoj00:NiceCrashReport:1.7'
 	}
 ```
 
