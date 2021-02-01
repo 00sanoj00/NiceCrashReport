@@ -68,4 +68,3 @@ Button crash = findViewById(R.id.crashmemamam);
 
 ![](https://github.com/00sanoj00/NiceCrashReport/blob/master/Screen/thank-you%20(2).png)<a href="https://github.com/intuit/sdp">SDP Android </a>
 
-![](https://github.com/00sanoj00/NiceCrashReport/blob/master/Screen/thank-you%20(2).png)<a href="https://github.com/TutorialsAndroid/crashx">CrashX</a>
